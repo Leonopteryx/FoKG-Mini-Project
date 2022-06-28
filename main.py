@@ -293,8 +293,8 @@ def run():
     provided and classifies the remaining instances.
     """
     lps = create_lps_list('data/kg22-carcinogenesis_lps2-test.ttl')
-    model = Model(ontology_path="data/carcinogenesis/carcinogenesis.owl")
-
+    model = Model(ontology_path="data/carcinogenesis.owl")
+    
     g = Graph()
     g.bind('lpclass', NS_CLASS)
     g.bind('carcinogenesis', NS_CAR)

@@ -12,6 +12,7 @@ The Carcinogenesis classification practice. Foundation of knowledge graph. Unive
 1. Clone the repository
    ```sh
    git clone https://github.com/Leonopteryx/FoKG-Mini-Project.git ```
+    
    ```sh
    cd .\FoKG-Mini-Project\
    ```

@@ -1,0 +1,7 @@
+FROM python:3
+ADD main.py /
+RUN pip install ontolearn==0.0.2
+RUN pip install rdflib
+RUN pip install pandas
+RUN pip install owlready2
+CMD [ "python", "./main.py" ]

@@ -10,9 +10,8 @@ The Carcinogenesis classification practice. Foundation of knowledge graph. Unive
 
 ## Running with Docker
 1. Clone the repository
-   ```
-   git clone https://github.com/Leonopteryx/FoKG-Mini-Project.git ```
-   ```
+   ```sh
+   git clone https://github.com/Leonopteryx/FoKG-Mini-Project.git
    cd .\FoKG-Mini-Project\
    ```
 2. Build and run the Docker

@@ -21,6 +21,6 @@ The Carcinogenesis classification practice. Foundation of knowledge graph. Unive
    ```
 3. Copy the Classification results to your directory
    ```sh
-   docker cp <container_id>:/classification_result.ttl ./FoKG-Mini-Project/
+   docker cp <container_id>:/classification_result.ttl .
    ```
-   * To obtain Docker id run: ```docker ps -a ps -a```
+   * To obtain Docker id run: ```docker ps -a```
